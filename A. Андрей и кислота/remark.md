@@ -16,7 +16,7 @@ int main() {
 	for (auto& a_i : v) {
 		cin >> a_i;
 	}
-	cout << is_sorted(v.begin(), v.end()) << '\n';
+
 	cout << ((is_sorted(v.begin(), v.end())) ? v[n - 1] - v[0] : -1);
 
 	return 0;
@@ -40,7 +40,7 @@ int main() {
 	for (auto& a_i : v) {
 		cin >> a_i;
 	}
-	cout << is_sorted(v.begin(), v.end()) << '\n';
+
 	cout << ((is_sorted(v.begin(), v.end())) ? v[n - 1] - v[0] : -1);
 
 	return 0;
